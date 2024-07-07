@@ -1,9 +1,9 @@
-export function ServiceCard() {
+export function ServiceCard({ Services }) {
   return (
     <div>
       <img src=""></img>
-      <h2>Name</h2>
-      <p>Description</p>
+      <h2>Name :{Services.name}</h2>
+      <p>Description: {Services.description}</p>
     </div>
   );
 }

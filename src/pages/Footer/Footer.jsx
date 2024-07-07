@@ -1,5 +1,5 @@
 import "./Footer.css";
 
 export function Footer() {
-  return <div className="footer-container">FOOTER</div>;
+  return <div className="footer-container"></div>;
 }
